@@ -74,7 +74,6 @@ jumlah, harga satuan, dan total per item. Order summary juga diperbarui dengan s
 ✔ meminimalkan risiko salah hitung oleh kasir  
 
 #### 3️⃣ Pembayaran
-<img src="dokumentasi/tampilan aplikasi full.png" alt="Menu Preview" width="1080">
 Kasir memasukkan jumlah uang dari pelanggan, lalu menekan tombol “Bayar”. Sistem memvalidasi input: jika uang cukup atau lebih, 
 sistem menghitung kembalian; jika kurang, sistem menampilkan pesan error agar kasir memeriksa kembali. Jika pembayaran berhasil, 
 kembalian ditampilkan di struk atau pop-up kecil.
