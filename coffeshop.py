@@ -120,7 +120,7 @@ class CoffeeShopApp(ctk.CTk):
         header.grid(row=0, column=0, columnspan=3, padx=20, pady=(30, 10), sticky="ew")
         header.grid_columnconfigure((0, 1), weight=1)
 
-        ctk.CTkLabel(header, text="It's Yours Coffee☕ - D121231013", font=self.font_title_app, text_color=AppColors.MENU_BG).grid(row=0, column=0, padx=20, sticky="w")
+        ctk.CTkLabel(header, text="☕ Marsha Carolince's Coffee - D121231013", font=self.font_title_app, text_color=AppColors.MENU_BG).grid(row=0, column=0, padx=20, sticky="w")
         self.time_label = ctk.CTkLabel(header, text="", font=self.font_header, text_color=AppColors.TEXT_DARK)
         self.time_label.grid(row=0, column=1, padx=20, sticky="e")
         self._update_time()
